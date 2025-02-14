@@ -5,7 +5,7 @@ const BlackSection = () => {
     const navItems = ['Complete Body', 'Front', 'Cabin', 'Trunk', 'Exterior'];
   return (
     <>
-       <section className="bg-black text-white py-5 min-vh-100">
+       <section className="bg-black text-white py-5 min-vh-100 passenger-vehiclew-section-main">
         <div className="container">
           <div className="text-center mb-5">
             <h2 className="display-5 fw-light mb-2">
@@ -29,7 +29,7 @@ const BlackSection = () => {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center gap-4">
+          <div className="d-flex justify-content-center gap-4 tabs-itme-main">
             {navItems.map((item) => (
               <button
                 key={item}

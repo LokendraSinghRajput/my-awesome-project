@@ -11,7 +11,7 @@ const Header = () => {
             <img src="https://supreme-group.vercel.app/static/media/logo.68f5b8493efb88f7cd65756bf67a1f5b.svg" alt="Supreme Group" height="42" />
           </div>
           {/* Right side buttons */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 header-right-section">
             <button className="bg-blue-400 text-blue px-4 py-2 rounded-full text-sm hover:bg-blue-500 transition-colors super-group-btn-top">
               Contact Us
             </button>
@@ -23,7 +23,7 @@ const Header = () => {
             >
               <Linkedin size={20} />
             </a>
-            <button className="text-gray-600 flex items-center gap-1 " style={{ background: 'transparent' }}>
+            <button className="text-gray-600 flex items-center gap-1 language-btn-header" style={{ background: 'transparent' }}>
               <Globe2 size={20} />
               <span className="text-sm">ENG</span>
             </button>

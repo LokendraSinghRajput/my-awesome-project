@@ -154,3 +154,47 @@ section.video-section::after {
 .col-lg-6.super-group-inputs-file textarea:placeholder{
  color:#333333;
 }
+
+/* Responsive css */
+
+@media only screen and (max-width: 768px) {
+ 
+  .super-group-title-banner {
+    font-size: 14px;
+}
+.small.super-group-uppr-title {
+  font-size: 19px;
+}
+.super-group-btn-top {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.header-right-section {
+  display: flex;
+}
+.super-group-header-section img {
+  width: 100px;
+}
+.header-right-section {
+  gap: 10px !important;
+  align-items: center;
+  justify-content: center;
+}
+.language-btn-header {
+  padding: 0;
+}
+.language-btn-header svg {
+  margin-right: 10px;
+}
+.tabs-itme-main button {
+  padding: 0;
+}
+.passenger-vehiclew-section-main {
+  height: auto !important;
+}
+
+
+}
+
+
+

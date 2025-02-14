@@ -3,7 +3,7 @@ const Footer = () => {
         <>
             <footer className="bg-white py-5 bg-footer ">
                 <div className="container">
-                    <div className="mb-4">
+                    <div className="mb-0">
                         <img
                             src="https://supreme-group.vercel.app/static/media/logo.68f5b8493efb88f7cd65756bf67a1f5b.svg"
                             alt="Supreme Group"
