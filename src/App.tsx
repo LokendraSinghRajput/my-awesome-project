@@ -1,5 +1,4 @@
 // App.jsx
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Layouts/Header';
 import ContactUs from './pages/ContactUs/contactUs';

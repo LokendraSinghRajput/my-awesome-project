@@ -2,18 +2,7 @@ import { Building2, Mail, Phone } from 'lucide-react';
 import { Formik, Form, Field, ErrorMessage ,FormikHelpers} from 'formik';
 import * as Yup from 'yup';
 
-
-
 const ContactUs = () => {
-    // Initial form values
-    // const initialValues = {
-    //     name: '',
-    //     email: '',
-    //     company: '',
-    //     message: ''
-    // };
-
-    // Your initialValues should match this interface
 const initialValues: FormValues = {
     name: '',
     email: '',
